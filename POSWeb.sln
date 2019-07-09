@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.AccesoDatos", "POSWeb.AccesoDatos\POSWeb.AccesoDatos.csproj", "{C1C69919-869A-451A-8879-20B6EAD64DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.Entidades", "POSWeb.Entidades\POSWeb.Entidades.csproj", "{02D05785-A128-4ACC-B02D-213B9885B5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.Utilidades", "POSWeb.Utilidades\POSWeb.Utilidades.csproj", "{A9DD185A-760C-4983-A728-93DDFD3F38F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.Encriptacion", "POSWeb.Encriptacion\POSWeb.Encriptacion.csproj", "{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.ControlExcepciones", "POSWeb.ControlExcepciones\POSWeb.ControlExcepciones.csproj", "{AED56A96-43A7-44C2-AB1D-B318CF8164AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.LogicaNegocios", "POSWeb.LogicaNegocios\POSWeb.LogicaNegocios.csproj", "{83AD2182-67F9-46E4-ADB4-4EFD37191E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.WebApi", "POSWeb.WebApi\POSWeb.WebApi.csproj", "{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1C69919-869A-451A-8879-20B6EAD64DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C69919-869A-451A-8879-20B6EAD64DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C69919-869A-451A-8879-20B6EAD64DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C69919-869A-451A-8879-20B6EAD64DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D05785-A128-4ACC-B02D-213B9885B5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D05785-A128-4ACC-B02D-213B9885B5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D05785-A128-4ACC-B02D-213B9885B5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D05785-A128-4ACC-B02D-213B9885B5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DD185A-760C-4983-A728-93DDFD3F38F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DD185A-760C-4983-A728-93DDFD3F38F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DD185A-760C-4983-A728-93DDFD3F38F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DD185A-760C-4983-A728-93DDFD3F38F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED56A96-43A7-44C2-AB1D-B318CF8164AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED56A96-43A7-44C2-AB1D-B318CF8164AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED56A96-43A7-44C2-AB1D-B318CF8164AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED56A96-43A7-44C2-AB1D-B318CF8164AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AD2182-67F9-46E4-ADB4-4EFD37191E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AD2182-67F9-46E4-ADB4-4EFD37191E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AD2182-67F9-46E4-ADB4-4EFD37191E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AD2182-67F9-46E4-ADB4-4EFD37191E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADD0F973-EB78-440E-BEE2-D3482F83A6E5}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

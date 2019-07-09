@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02D05785-A128-4ACC-B02D-213B9885B5F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POSWeb.Entidades</RootNamespace>
+    <AssemblyName>POSWeb.Entidades</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accion.cs" />
+    <Compile Include="AlertaBase.cs" />
+    <Compile Include="AlertaEntidad.cs" />
+    <Compile Include="Autorizacion.cs" />
+    <Compile Include="AutorizacionDetalle.cs" />
+    <Compile Include="BaseEntidad.cs" />
+    <Compile Include="BitacoraAplicacion.cs" />
+    <Compile Include="Bitacora\Bitacora.cs" />
+    <Compile Include="Bitacora\BitacoraGeneral.cs" />
+    <Compile Include="Bitacora\BitacoraObjeto.cs" />
+    <Compile Include="Bitacora\MensajeExcepcion.cs" />
+    <Compile Include="Catalogo.cs" />
+    <Compile Include="CheckBoxListInfo.cs" />
+    <Compile Include="Controlador.cs" />
+    <Compile Include="CuentaEmail.cs" />
+    <Compile Include="Entidad.cs" />
+    <Compile Include="Enumeraciones\ACCIONES.cs" />
+    <Compile Include="Enumeraciones\Alertas.cs" />
+    <Compile Include="Enumeraciones\CODIGOS_ERROR.cs" />
+    <Compile Include="Enumeraciones\MENSAJES_SISTEMA.cs" />
+    <Compile Include="Enumeraciones\TIPOS_COLUMNA_ARCHIVO.cs" />
+    <Compile Include="Enumeraciones\TIPOS_CONEXION_BD.cs" />
+    <Compile Include="Enumeraciones\TIPOS_MODIFICACION_OBJETO.cs" />
+    <Compile Include="Enumeraciones\TIPOS_OBJETO.cs" />
+    <Compile Include="ErrorType.cs" />
+    <Compile Include="HelperValues.cs" />
+    <Compile Include="Modulo.cs" />
+    <Compile Include="Paginacion.cs" />
+    <Compile Include="Pais.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceFiles\AccionesRX.Designer.cs" />
+    <Compile Include="ResourceFiles\Generales.Designer.cs" />
+    <Compile Include="ResourceFiles\lblViews.Designer.cs" />
+    <Compile Include="ResourceFiles\Mensajes.Designer.cs" />
+    <Compile Include="ResourceFiles\MensajesValidaciones.Designer.cs" />
+    <Compile Include="ResourceFiles\Respuestas.Designer.cs" />
+    <Compile Include="Respuesta.cs" />
+    <Compile Include="Rol.cs" />
+    <Compile Include="Seguridad\AccountViewModels.cs" />
+    <Compile Include="Sesion.cs" />
+    <Compile Include="TipoIdentificacion.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ResourceFiles\AccionesRX.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AccionesRX1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFiles\Generales.resx" />
+    <EmbeddedResource Include="ResourceFiles\lblViews.resx" />
+    <EmbeddedResource Include="ResourceFiles\Mensajes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Mensajes1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFiles\MensajesValidaciones.resx" />
+    <EmbeddedResource Include="ResourceFiles\Respuestas.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

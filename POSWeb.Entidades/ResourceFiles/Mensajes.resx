@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bmNoPermitido" xml:space="preserve">
+    <value>Operación no permitida.</value>
+  </data>
+  <data name="bmCreateCaja" xml:space="preserve">
+    <value>La Caja Chica ha sido creada exitosamente.</value>
+  </data>
+  <data name="bmDeleteCaja" xml:space="preserve">
+    <value>La Caja Chica ha sido eliminada exitosamente.</value>
+  </data>
+  <data name="bmEditCaja" xml:space="preserve">
+    <value>La Caja Chica ha sido editada exitosamente.</value>
+  </data>
+  <data name="bmError" xml:space="preserve">
+    <value>Ha ocurrido un error al procesar la transacción.</value>
+  </data>
+  <data name="bmCreateMoneda" xml:space="preserve">
+    <value>Moneda creada exitosamente.</value>
+  </data>
+  <data name="bmDeleteMoneda" xml:space="preserve">
+    <value>Moneda eliminada exitosamente.</value>
+  </data>
+  <data name="bmEditMoneda" xml:space="preserve">
+    <value>Moneda editada exitosamente.</value>
+  </data>
+  <data name="bmCreateUsuario" xml:space="preserve">
+    <value>El usuario ha sido creado exitosamente.</value>
+  </data>
+  <data name="bmDeleteUsuario" xml:space="preserve">
+    <value>El usuario ha sido eliminado exitosamente.</value>
+  </data>
+  <data name="bmEditUsuario" xml:space="preserve">
+    <value>El usuario ha sido editado exitosamente.</value>
+  </data>
+  <data name="bmCreateVale" xml:space="preserve">
+    <value>El Vale ha sido creado exitosamente.</value>
+  </data>
+  <data name="bmDeleteVale" xml:space="preserve">
+    <value>El Vale ha sido eliminado exitosamente.</value>
+  </data>
+  <data name="bmDesembolsarVale" xml:space="preserve">
+    <value>El Vale ha sido desembolsado exitosamente.</value>
+  </data>
+  <data name="bmEditVale" xml:space="preserve">
+    <value>El Vale ha sido editado exitosamente.</value>
+  </data>
+  <data name="bmLiquidarVale" xml:space="preserve">
+    <value>El Vale ha sido liquidadp exitosamente.</value>
+  </data>
+  <data name="vmRequeridoConsecutivoEntidad" xml:space="preserve">
+    <value>Consecutivo requerido</value>
+  </data>
+  <data name="EliminarRegistro" xml:space="preserve">
+    <value>Esta acción no es reversible! ¿Desea eliminar?</value>
+  </data>
+  <data name="bmCreateTipoViatico" xml:space="preserve">
+    <value>El tipo de Viático ha sido creado exitosamente.</value>
+  </data>
+  <data name="bmDeleteTipoViatico" xml:space="preserve">
+    <value>El tipo de Viático ha sido eliminado exitosamente.</value>
+  </data>
+  <data name="bmEditTipoViatico" xml:space="preserve">
+    <value>El tipo de Viático ha sido editado exitosamente.</value>
+  </data>
+  <data name="bmCreateLoteViatico" xml:space="preserve">
+    <value>El lote ha sido creado exitosamente.</value>
+  </data>
+  <data name="bmDeleteLoteViatico" xml:space="preserve">
+    <value>El lote ha sido eliminado exitosamente.</value>
+  </data>
+  <data name="bmEditLoteViatico" xml:space="preserve">
+    <value>El lote ha sido editado exitosamente.</value>
+  </data>
+  <data name="bmCreateTarjetaEmpleado" xml:space="preserve">
+    <value>TarjetaEmpleado agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditTarjetaEmpleado" xml:space="preserve">
+    <value>TarjetaEmpleado modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteTarjetaEmpleado" xml:space="preserve">
+    <value>TarjetaEmpleado eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateEntidadBancaria" xml:space="preserve">
+    <value>EntidadBancaria agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditEntidadBancaria" xml:space="preserve">
+    <value>EntidadBancaria modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteEntidadBancaria" xml:space="preserve">
+    <value>EntidadBancaria eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmCreatePartidaPresupuestal" xml:space="preserve">
+    <value>PartidaPresupuestal agregado(a) correctamente. </value>
+  </data>
+  <data name="bmEditPartidaPresupuestal" xml:space="preserve">
+    <value>PartidaPresupuestal modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeletePartidaPresupuestal" xml:space="preserve">
+    <value>PartidaPresupuestal eliminado(a) correctamente. </value>
+  </data>
+  <data name="bmCreateCanal" xml:space="preserve">
+    <value>Canal agregado(a) correctamente. </value>
+  </data>
+  <data name="bmDeleteCanal" xml:space="preserve">
+    <value>Canal eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmEditCanal" xml:space="preserve">
+    <value>Canal modificado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateSolicitudCotizacion" xml:space="preserve">
+    <value>SolicitudCotizacion agregado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteSolicitudCotizacion" xml:space="preserve">
+    <value>SolicitudCotizacion eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmEditSolicitudCotizacion" xml:space="preserve">
+    <value>SolicitudCotizacion modificado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateSolicitudCotizacionDetalle" xml:space="preserve">
+    <value>Solicitud Cotizacion Detalle agregado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteSolicitudCotizacionDetalle" xml:space="preserve">
+    <value>Solicitud Cotizacion Detalle eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmEditSolicitudCotizacionDetalle" xml:space="preserve">
+    <value>Solicitud Cotizacion Detalle modificado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateSolicitudCotiDetalleNoCount" xml:space="preserve">
+    <value>No se puede procesar debido a que la solicitud no tiene detalle.</value>
+  </data>
+  <data name="bmAprobarSolicitudCotizacion" xml:space="preserve">
+    <value>Solicitud Cotizacion aprobada correctamente.</value>
+  </data>
+  <data name="bmCreateSesion" xml:space="preserve">
+    <value>Sesion agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditSesion" xml:space="preserve">
+    <value>Sesion modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteSesion" xml:space="preserve">
+    <value>Sesion eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateModulo" xml:space="preserve">
+    <value>Modulo agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditModulo" xml:space="preserve">
+    <value>Modulo modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteModulo" xml:space="preserve">
+    <value>Modulo eliminado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateRol" xml:space="preserve">
+    <value>Rol agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditRol" xml:space="preserve">
+    <value>Rol modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteRol" xml:space="preserve">
+    <value>Rol eliminado(a) correctamente.</value>
+  </data>
+  <data name="msjErrorGenerico" xml:space="preserve">
+    <value>Ha ocurrido un error en el sistema, por favor contacte al administrador.</value>
+  </data>
+  <data name="tituloErrorSwAl" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="bmCreatePerfil" xml:space="preserve">
+    <value>Perfil agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditPerfil" xml:space="preserve">
+    <value>Perfil modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeletePerfil" xml:space="preserve">
+    <value>Perfil eliminado(a) correctamente.</value>
+  </data>
+  <data name="msjSesionExpiro" xml:space="preserve">
+    <value>Su sesión ha expirado.</value>
+  </data>
+  <data name="bmCreateCuentaEmail" xml:space="preserve">
+    <value>Cuenta de Correo Electrónico agregada correctamente.</value>
+  </data>
+  <data name="bmEditCuentaEmail" xml:space="preserve">
+    <value>Cuenta de Correo Electrónico modificada correctamente.</value>
+  </data>
+  <data name="bmDeleteCuentaEmail" xml:space="preserve">
+    <value>Cuenta de Correo Electrónico eliminada correctamente.</value>
+  </data>
+  <data name="bmCreateAutorizacion" xml:space="preserve">
+    <value>Autorizacion agregado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateAutorizacionDetalle" xml:space="preserve">
+    <value>AutorizacionDetalle agregado(a) correctamente.</value>
+  </data>
+  <data name="bmCreateAlertaEntidad" xml:space="preserve">
+    <value>Alerta configurada correctamente.</value>
+  </data>
+  <data name="bmDeleteAlertaEntidad" xml:space="preserve">
+    <value>Alerta eliminada correctamente.</value>
+  </data>
+  <data name="bmEditAlertaEntidad" xml:space="preserve">
+    <value>Alerta modificada correctamente.</value>
+  </data>
+  <data name="bmCreateCatalogo" xml:space="preserve">
+    <value>Catalogo agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditCatalogo" xml:space="preserve">
+    <value>Catalogo modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteCatalogo" xml:space="preserve">
+    <value>Catalogo eliminado(a) correctamente.</value>
+  </data>
+  <data name="msjCuentaCorreoBodyPrueba" xml:space="preserve">
+    <value>Cuenta de correo funciona sin problemas.</value>
+  </data>
+  <data name="msjCuentaCorreoSubjectPrueba" xml:space="preserve">
+    <value>Esto es una prueba de correo</value>
+  </data>
+  <data name="bmSendEmail" xml:space="preserve">
+    <value>Se ha enviado correctamente el correo electrónico.</value>
+  </data>
+</root>

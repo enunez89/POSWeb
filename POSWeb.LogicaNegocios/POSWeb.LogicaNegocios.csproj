@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83AD2182-67F9-46E4-ADB4-4EFD37191E47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POSWeb.LogicaNegocios</RootNamespace>
+    <AssemblyName>POSWeb.LogicaNegocios</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TraceData">
+      <HintPath>..\packages\TraceData\TraceData.dll</HintPath>
+    </Reference>
+    <Reference Include="TraceData.Entities">
+      <HintPath>..\packages\TraceData\TraceData.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="TraceData.Utilities">
+      <HintPath>..\packages\TraceData\TraceData.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccionLogicaNegocio.cs" />
+    <Compile Include="AlertaEntidadLogicaNegocio.cs" />
+    <Compile Include="AlertaLogicaNegocio.cs" />
+    <Compile Include="AutorizacionLogicaNegocio.cs" />
+    <Compile Include="BitacoraLogicaNegocios.cs" />
+    <Compile Include="CatalogoLogicaNegocio.cs" />
+    <Compile Include="ControladorLogicaNegocio.cs" />
+    <Compile Include="CuentaEmailLogicaNegocio.cs" />
+    <Compile Include="ModuloLogicaNegocio.cs" />
+    <Compile Include="PaisLogicaNegocio.cs" />
+    <Compile Include="PerfilLogicaNegocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RolLogicaNegocio.cs" />
+    <Compile Include="SesionLogicaNegocio.cs" />
+    <Compile Include="TipoIdentificacionLogicaNegocio.cs" />
+    <Compile Include="Tools\Bitacoras.cs" />
+    <Compile Include="Tools\Download.cs" />
+    <Compile Include="Tools\GenPassword.cs" />
+    <Compile Include="Tools\IDownloadService.cs" />
+    <Compile Include="Tools\ITokenizer.cs" />
+    <Compile Include="Tools\MessageTokenProviderLogicaNegocio.cs" />
+    <Compile Include="UsuarioLogicaNegocio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POSWeb.AccesoDatos\POSWeb.AccesoDatos.csproj">
+      <Project>{c1c69919-869a-451a-8879-20b6ead64dfb}</Project>
+      <Name>POSWeb.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.ControlExcepciones\POSWeb.ControlExcepciones.csproj">
+      <Project>{AED56A96-43A7-44C2-AB1D-B318CF8164AA}</Project>
+      <Name>POSWeb.ControlExcepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.Encriptacion\POSWeb.Encriptacion.csproj">
+      <Project>{0A010ACB-7AA2-4742-8B08-6F5F019B54C1}</Project>
+      <Name>POSWeb.Encriptacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.Entidades\POSWeb.Entidades.csproj">
+      <Project>{02d05785-a128-4acc-b02d-213b9885b5f4}</Project>
+      <Name>POSWeb.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.Utilidades\POSWeb.Utilidades.csproj">
+      <Project>{a9dd185a-760c-4983-a728-93ddfd3f38f2}</Project>
+      <Name>POSWeb.Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EliminarUsuario" xml:space="preserve">
+    <value>paEliminarUsuario</value>
+  </data>
+  <data name="InsertarUsuario" xml:space="preserve">
+    <value>paInsertarUsuario</value>
+  </data>
+  <data name="ModificarUsuario" xml:space="preserve">
+    <value>paModificarUsuario</value>
+  </data>
+  <data name="ObtenerUsuario" xml:space="preserve">
+    <value>paObtenerUsuario</value>
+  </data>
+  <data name="ObtenerUsuarioPaginado" xml:space="preserve">
+    <value>paObtenerUsuarioPaginado</value>
+  </data>
+  <data name="ObtenerCatalogo" xml:space="preserve">
+    <value>paObtenerCatalogo</value>
+  </data>
+  <data name="ObtenerCatalogoPaginado" xml:space="preserve">
+    <value>paObtenerCatalogoPaginado</value>
+  </data>
+  <data name="EliminarSesion" xml:space="preserve">
+    <value>paEliminarSesion</value>
+  </data>
+  <data name="InsertarSesion" xml:space="preserve">
+    <value>paInsertarSesion</value>
+  </data>
+  <data name="ObtenerSesion" xml:space="preserve">
+    <value>paObtenerSesion</value>
+  </data>
+  <data name="ObtenerModulo" xml:space="preserve">
+    <value>paObtenerModulo</value>
+  </data>
+  <data name="ObtenerModuloPaginado" xml:space="preserve">
+    <value>paObtenerModuloPag</value>
+  </data>
+  <data name="InsertarModulo" xml:space="preserve">
+    <value>paInsertarModulo</value>
+  </data>
+  <data name="ModificarModulo" xml:space="preserve">
+    <value>paModificarModulo</value>
+  </data>
+  <data name="EliminarModulo" xml:space="preserve">
+    <value>paEliminarModulo</value>
+  </data>
+  <data name="ObtenerMenuUsuario" xml:space="preserve">
+    <value>paObtenerMenuUsuario</value>
+  </data>
+  <data name="ValidarUsuarioLogin" xml:space="preserve">
+    <value>paValidarUsuarioLogin</value>
+  </data>
+  <data name="ObtenerRol" xml:space="preserve">
+    <value>paObtenerRol</value>
+  </data>
+  <data name="ObtenerRolPaginado" xml:space="preserve">
+    <value>paObtenerRolPaginado</value>
+  </data>
+  <data name="InsertarRol" xml:space="preserve">
+    <value>paInsertarRol</value>
+  </data>
+  <data name="ModificarRol" xml:space="preserve">
+    <value>paModificarRol</value>
+  </data>
+  <data name="EliminarRol" xml:space="preserve">
+    <value>paEliminarRol</value>
+  </data>
+  <data name="ObtenerPerfil" xml:space="preserve">
+    <value>paObtenerPerfil</value>
+  </data>
+  <data name="ObtenerPerfilPaginado" xml:space="preserve">
+    <value>paObtenerPerfilPag</value>
+  </data>
+  <data name="InsertarPerfil" xml:space="preserve">
+    <value>paInsertarPerfil</value>
+  </data>
+  <data name="ModificarPerfil" xml:space="preserve">
+    <value>paModificarPerfil</value>
+  </data>
+  <data name="EliminarPerfil" xml:space="preserve">
+    <value>paEliminarPerfil</value>
+  </data>
+  <data name="ObtenerAccion" xml:space="preserve">
+    <value>paObtenerAccion</value>
+  </data>
+  <data name="ObtenerAccionesPerfil" xml:space="preserve">
+    <value>paObtenerAccionesPerfil</value>
+  </data>
+  <data name="ObtenerPerfilPorRol" xml:space="preserve">
+    <value>paObtenerPerfilPorRol</value>
+  </data>
+  <data name="ObtenerRolPorUsuario" xml:space="preserve">
+    <value>paObtenerRolPorUsuario</value>
+  </data>
+  <data name="EliminarAlerta" xml:space="preserve">
+    <value>paEliminarAlerta</value>
+  </data>
+  <data name="EliminarCuentaEmail" xml:space="preserve">
+    <value>paEliminarCuentaEmail</value>
+  </data>
+  <data name="InsertarAlerta" xml:space="preserve">
+    <value>paInsertarAlerta</value>
+  </data>
+  <data name="InsertarCuentaEmail" xml:space="preserve">
+    <value>paInsertarCuentaEmail</value>
+  </data>
+  <data name="ModificarAlerta" xml:space="preserve">
+    <value>paModificarAlerta</value>
+  </data>
+  <data name="ModificarCuentaEmail" xml:space="preserve">
+    <value>paModificarCuentaEmail</value>
+  </data>
+  <data name="ObtenerAlerta" xml:space="preserve">
+    <value>paObtenerAlerta</value>
+  </data>
+  <data name="ObtenerAlertaPaginado" xml:space="preserve">
+    <value>paObtenerAlertaPag</value>
+  </data>
+  <data name="ObtenerCuentaEmail" xml:space="preserve">
+    <value>paObtenerCuentaEmail</value>
+  </data>
+  <data name="ObtenerCuentaEmailPaginado" xml:space="preserve">
+    <value>paObtenerCuentaEmailPag</value>
+  </data>
+  <data name="ModificarSesion" xml:space="preserve">
+    <value>paModificarSesion</value>
+  </data>
+  <data name="ObtenerSesionPaginado" xml:space="preserve">
+    <value>paObtenerSesionPaginado</value>
+  </data>
+  <data name="CambiarContrasena" xml:space="preserve">
+    <value>paCambiarContrasena</value>
+  </data>
+  <data name="ObtenerBitacora" xml:space="preserve">
+    <value>paObtenerBitacora</value>
+  </data>
+  <data name="ObtenerBitacoraPaginado" xml:space="preserve">
+    <value>paObtenerBitacoraPaginado</value>
+  </data>
+  <data name="ObtenerAutorizacion" xml:space="preserve">
+    <value>paObtenerAutorizacion</value>
+  </data>
+  <data name="ObtenerAutorizacionPaginado" xml:space="preserve">
+    <value>paObtenerAutorizacionPaginado</value>
+  </data>
+  <data name="InsertarAutorizacion" xml:space="preserve">
+    <value>paInsertarAutorizacion</value>
+  </data>
+  <data name="ObtenerAutorizacionDetalle" xml:space="preserve">
+    <value>paObtenerAutorizacionDetalle</value>
+  </data>
+  <data name="ObtenerAutorizacionDetallePaginado" xml:space="preserve">
+    <value>paObtenerAutorizacionDetallePaginado</value>
+  </data>
+  <data name="InsertarAutorizacionDetalle" xml:space="preserve">
+    <value>paInsertarAutorizacionDetalle</value>
+  </data>
+  <data name="ObtenerControlador" xml:space="preserve">
+    <value>paObtenerControlador</value>
+  </data>
+  <data name="EliminarAlertaEntidad" xml:space="preserve">
+    <value>paEliminarAlertaEntidad</value>
+  </data>
+  <data name="InsertarAlertaEntidad" xml:space="preserve">
+    <value>paInsertarAlertaEntidad</value>
+  </data>
+  <data name="ModificarAlertaEntidad" xml:space="preserve">
+    <value>paModificarAlertaEntidad</value>
+  </data>
+  <data name="ObtenerAlertaEntidad" xml:space="preserve">
+    <value>paObtenerAlertaEntidad</value>
+  </data>
+  <data name="ObtenerAlertaEntidadPaginado" xml:space="preserve">
+    <value>paObtenerAlertaEntidadPag</value>
+  </data>
+  <data name="ProcesarAutorizacion" xml:space="preserve">
+    <value>paProcesarAutorizacion</value>
+  </data>
+  <data name="ObtenerTipoIdentificacion" xml:space="preserve">
+    <value>paObtenerTipoIdentificacion</value>
+  </data>
+  <data name="ObtenerPais" xml:space="preserve">
+    <value>paObtenerPais</value>
+  </data>
+  <data name="ModificarCatalogo" xml:space="preserve">
+    <value>paModificarCatalogo</value>
+  </data>
+</root>
