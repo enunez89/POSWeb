@@ -1,0 +1,2 @@
+# POSWeb
+Proyecto POS Web.
