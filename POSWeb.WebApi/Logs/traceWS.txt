@@ -1,0 +1,110 @@
+----------------------------------------
+Timestamp: 11-Jul-19 6:27:57 PM
+Message: System.Exception: prueba exception
+   at POSWeb.LogicaNegocios.ProductoLogicaNegocio.InsertarProducto(Producto pProducto) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProductoLogicaNegocio.cs:line 37
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132073648233986956
+ProcessId: 7028
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:6084
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Producto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UsrCreacion>string</UsrCreacion>
+  <UsrModificacion>string</UsrModificacion>
+  <UsrLoginConectado>string</UsrLoginConectado>
+  <PassLoginConectado>string</PassLoginConectado>
+  <SourceLoginConectado>string</SourceLoginConectado>
+  <UsrtokensAuthenticate>string</UsrtokensAuthenticate>
+  <IP>string</IP>
+  <FecCreacion>2019-07-12T00:27:34.957Z</FecCreacion>
+  <FecModificacion>2019-07-12T00:27:34.957Z</FecModificacion>
+  <CodError>string</CodError>
+  <Mensaje>string</Mensaje>
+  <CodigoCanal>string</CodigoCanal>
+  <XMLData>string</XMLData>
+  <IdEntidad>0</IdEntidad>
+  <DescEstado>string</DescEstado>
+  <NombreControlador>string</NombreControlador>
+  <Id>0</Id>
+  <IdProveedor>0</IdProveedor>
+  <IdCategoria>0</IdCategoria>
+  <Nombre>string</Nombre>
+  <PrecioCosto>0</PrecioCosto>
+  <PrecioVenta>0</PrecioVenta>
+  <Utilidad>0</Utilidad>
+  <Impuesto>0</Impuesto>
+  <Stock>0</Stock>
+  <Existencia>0</Existencia>
+  <Descuento>0</Descuento>
+  <CodigoBarra>string</CodigoBarra>
+  <Activo>true</Activo>
+</Producto>
+Clase: - POSWeb.LogicaNegocios.ProductoLogicaNegocio
+Metodo: - InsertarProducto
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Productos/Guardar
+Codigo Error: - OMN-20190711-182757
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11-Jul-19 6:35:04 PM
+Message: System.Exception: prueba exception
+   at POSWeb.LogicaNegocios.ProductoLogicaNegocio.InsertarProducto(Producto pProducto) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProductoLogicaNegocio.cs:line 37
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132073652667892302
+ProcessId: 14408
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:15552
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Producto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UsrCreacion>string</UsrCreacion>
+  <UsrModificacion>string</UsrModificacion>
+  <UsrLoginConectado>string</UsrLoginConectado>
+  <PassLoginConectado>string</PassLoginConectado>
+  <SourceLoginConectado>string</SourceLoginConectado>
+  <UsrtokensAuthenticate>string</UsrtokensAuthenticate>
+  <IP>string</IP>
+  <FecCreacion>2019-07-12T00:34:53.224Z</FecCreacion>
+  <FecModificacion>2019-07-12T00:34:53.224Z</FecModificacion>
+  <CodError>string</CodError>
+  <Mensaje>string</Mensaje>
+  <CodigoCanal>string</CodigoCanal>
+  <XMLData>string</XMLData>
+  <IdEntidad>0</IdEntidad>
+  <DescEstado>string</DescEstado>
+  <NombreControlador>string</NombreControlador>
+  <Id>0</Id>
+  <IdProveedor>0</IdProveedor>
+  <IdCategoria>0</IdCategoria>
+  <Nombre>string</Nombre>
+  <PrecioCosto>0</PrecioCosto>
+  <PrecioVenta>0</PrecioVenta>
+  <Utilidad>0</Utilidad>
+  <Impuesto>0</Impuesto>
+  <Stock>0</Stock>
+  <Existencia>0</Existencia>
+  <Descuento>0</Descuento>
+  <CodigoBarra>string</CodigoBarra>
+  <Activo>true</Activo>
+</Producto>
+Clase: - POSWeb.LogicaNegocios.ProductoLogicaNegocio
+Metodo: - InsertarProducto
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Productos/Guardar
+Codigo Error: - OMN-20190711-183503
+
+----------------------------------------

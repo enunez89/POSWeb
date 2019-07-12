@@ -101,7 +101,11 @@
     <Compile Include="ResourceFiles\AccionesRX.Designer.cs" />
     <Compile Include="ResourceFiles\Generales.Designer.cs" />
     <Compile Include="ResourceFiles\lblViews.Designer.cs" />
-    <Compile Include="ResourceFiles\Mensajes.Designer.cs" />
+    <Compile Include="ResourceFiles\Mensajes1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Mensajes.resx</DependentUpon>
+    </Compile>
     <Compile Include="ResourceFiles\MensajesValidaciones.Designer.cs" />
     <Compile Include="ResourceFiles\Respuestas.Designer.cs" />
     <Compile Include="Respuesta.cs" />

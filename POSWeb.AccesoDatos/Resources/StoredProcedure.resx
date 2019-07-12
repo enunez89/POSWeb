@@ -303,4 +303,19 @@
   <data name="ModificarCatalogo" xml:space="preserve">
     <value>paModificarCatalogo</value>
   </data>
+  <data name="ObtenerProducto" xml:space="preserve">
+    <value>paObtenerProducto</value>
+  </data>
+  <data name="ObtenerProductoPaginado" xml:space="preserve">
+    <value>paObtenerProductoPag</value>
+  </data>
+  <data name="InsertarProducto" xml:space="preserve">
+    <value>paInsertarProducto</value>
+  </data>
+  <data name="ModificarProducto" xml:space="preserve">
+    <value>paModificarProducto</value>
+  </data>
+  <data name="EliminarProducto" xml:space="preserve">
+    <value>paEliminarProducto</value>
+  </data>
 </root>

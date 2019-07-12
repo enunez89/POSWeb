@@ -134,6 +134,24 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POSWeb.ControlExcepciones\POSWeb.ControlExcepciones.csproj">
+      <Project>{aed56a96-43a7-44c2-ab1d-b318cf8164aa}</Project>
+      <Name>POSWeb.ControlExcepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.Entidades\POSWeb.Entidades.csproj">
+      <Project>{02d05785-a128-4acc-b02d-213b9885b5f4}</Project>
+      <Name>POSWeb.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.LogicaNegocios\POSWeb.LogicaNegocios.csproj">
+      <Project>{83ad2182-67f9-46e4-adb4-4efd37191e47}</Project>
+      <Name>POSWeb.LogicaNegocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POSWeb.Utilidades\POSWeb.Utilidades.csproj">
+      <Project>{a9dd185a-760c-4983-a728-93ddfd3f38f2}</Project>
+      <Name>POSWeb.Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

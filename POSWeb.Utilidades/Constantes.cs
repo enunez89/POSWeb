@@ -101,7 +101,7 @@ namespace POSWeb.Utilidades
         {
             //constantes para los tamaños de los out parameters
             public const int codErrorTamano = 5;
-            public const int mensajeTamano = 1000;
+            public const int mensajeTamano = int.MaxValue;
         }
 
         public struct Catalogo

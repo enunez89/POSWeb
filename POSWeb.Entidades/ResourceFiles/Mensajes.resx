@@ -336,4 +336,13 @@
   <data name="bmSendEmail" xml:space="preserve">
     <value>Se ha enviado correctamente el correo electrónico.</value>
   </data>
+  <data name="bmCreateProducto" xml:space="preserve">
+    <value>Producto agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditProducto" xml:space="preserve">
+    <value>Producto modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteProducto" xml:space="preserve">
+    <value>Producto eliminado(a) correctamente.</value>
+  </data>
 </root>

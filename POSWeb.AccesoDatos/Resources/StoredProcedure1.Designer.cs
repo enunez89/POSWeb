@@ -115,6 +115,15 @@ namespace POSWeb.AccesoDatos.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to paEliminarProducto.
+        /// </summary>
+        public static string EliminarProducto {
+            get {
+                return ResourceManager.GetString("EliminarProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to paEliminarRol.
         /// </summary>
         public static string EliminarRol {
@@ -205,6 +214,15 @@ namespace POSWeb.AccesoDatos.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to paInsertarProducto.
+        /// </summary>
+        public static string InsertarProducto {
+            get {
+                return ResourceManager.GetString("InsertarProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to paInsertarRol.
         /// </summary>
         public static string InsertarRol {
@@ -282,6 +300,15 @@ namespace POSWeb.AccesoDatos.Resources {
         public static string ModificarPerfil {
             get {
                 return ResourceManager.GetString("ModificarPerfil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paModificarProducto.
+        /// </summary>
+        public static string ModificarProducto {
+            get {
+                return ResourceManager.GetString("ModificarProducto", resourceCulture);
             }
         }
         
@@ -525,6 +552,24 @@ namespace POSWeb.AccesoDatos.Resources {
         public static string ObtenerPerfilPorRol {
             get {
                 return ResourceManager.GetString("ObtenerPerfilPorRol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paObtenerProducto.
+        /// </summary>
+        public static string ObtenerProducto {
+            get {
+                return ResourceManager.GetString("ObtenerProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paObtenerProductoPag.
+        /// </summary>
+        public static string ObtenerProductoPaginado {
+            get {
+                return ResourceManager.GetString("ObtenerProductoPaginado", resourceCulture);
             }
         }
         

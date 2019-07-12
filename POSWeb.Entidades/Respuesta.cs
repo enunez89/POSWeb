@@ -302,40 +302,40 @@ namespace POSWeb.Entidades
 
         #region Propiedaes
 
-        [DataMember]
+        //[DataMember]
         public static string CodExitoso { get { return _codExitoso; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodError { get { return _codError; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodNoValido { get { return _codExcepcion; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodNoEncontrado { get { return _codNoEncontrado; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodUsuarioNoExiste { get { return _codUsuarioNoExiste; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodUsuarioBloqueado { get { return _codUsuarioBloqueado; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodUsuarioInactivo { get { return _codUsuarioInactivo; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodUsrPndntCmboCntrsn { get { return _codUsrPendCambioContra; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodPassVencido { get { return _codPassVencido; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodSesionExpira { get { return _sessionExpired; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodNoPermitido { get { return _codNoPermitido; } }
 
-        [DataMember]
+        //[DataMember]
         public static string CodTokenIncorrecto { get { return _codTokenIncorrecto; } }
 
         [DataMember]
