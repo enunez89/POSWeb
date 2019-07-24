@@ -345,4 +345,13 @@
   <data name="bmDeleteProducto" xml:space="preserve">
     <value>Producto eliminado(a) correctamente.</value>
   </data>
+  <data name="bmCreateProveedor" xml:space="preserve">
+    <value>Proveedor agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditProveedor" xml:space="preserve">
+    <value>Proveedor modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteProveedor" xml:space="preserve">
+    <value>Proveedor eliminado(a) correctamente.</value>
+  </data>  
 </root>

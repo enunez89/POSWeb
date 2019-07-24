@@ -16,7 +16,7 @@ namespace POSWeb.AccesoDatos
 {
     /// <summary>
     /// Requerimiento:       POSWeb
-    /// Empresa:             Sistemas Eddy & Gianca
+    /// Empresa:             Salazar & Asociados S.A.
     /// Autor:               Eddy
     /// Propósito:           Acceso Datos clase   ProductoAccesoDatos
     /// Ultima modificacion: 11-07-2019

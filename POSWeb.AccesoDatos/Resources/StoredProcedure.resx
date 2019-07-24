@@ -318,4 +318,19 @@
   <data name="EliminarProducto" xml:space="preserve">
     <value>paEliminarProducto</value>
   </data>
+  <data name="ObtenerProveedor" xml:space="preserve">
+    <value>paObtenerProveedor</value>
+  </data>
+  <data name="ObtenerProveedorPaginado" xml:space="preserve">
+    <value>paObtenerProveedorPag</value>
+  </data>
+  <data name="InsertarProveedor" xml:space="preserve">
+    <value>paInsertarProveedor</value>
+  </data>
+  <data name="ModificarProveedor" xml:space="preserve">
+    <value>paModificarProveedor</value>
+  </data>
+  <data name="EliminarProveedor" xml:space="preserve">
+    <value>paEliminarProveedor</value>
+  </data>
 </root>

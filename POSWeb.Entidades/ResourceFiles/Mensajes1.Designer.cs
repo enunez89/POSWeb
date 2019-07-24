@@ -196,6 +196,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Proveedor agregado(a) correctamente..
+        /// </summary>
+        public static string bmCreateProveedor {
+            get {
+                return ResourceManager.GetString("bmCreateProveedor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rol agregado(a) correctamente..
         /// </summary>
         public static string bmCreateRol {
@@ -385,6 +394,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Proveedor eliminado(a) correctamente..
+        /// </summary>
+        public static string bmDeleteProveedor {
+            get {
+                return ResourceManager.GetString("bmDeleteProveedor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rol eliminado(a) correctamente..
         /// </summary>
         public static string bmDeleteRol {
@@ -570,6 +588,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         public static string bmEditProducto {
             get {
                 return ResourceManager.GetString("bmEditProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proveedor modificado(a) correctamente..
+        /// </summary>
+        public static string bmEditProveedor {
+            get {
+                return ResourceManager.GetString("bmEditProveedor", resourceCulture);
             }
         }
         

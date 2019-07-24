@@ -13,7 +13,7 @@ namespace POSWeb.LogicaNegocios
 {
     /// <summary>
     /// Requerimiento:       POSWeb
-    /// Empresa:             Sistemas Eddy & Gianca
+    /// Empresa:             Salazar & Asociados S.A.
     /// Autor:               Eddy
     /// Propósito:           Logica de Negocio clase   ProductoLogicaNegocio
     /// Ultima modificacion: 11-07-2019
@@ -88,7 +88,10 @@ namespace POSWeb.LogicaNegocios
             var respuesta = new RespuestaProducto();
             try
             {
-                respuesta.Producto = dal.ObtenerProducto(pProducto).ListaProducto?[0];
+
+                var respObtenerProducto = dal.ObtenerProducto(pProducto);
+                respuesta.Producto = respObtenerProducto.ListaProducto != null || respObtenerProducto.ListaProducto.Count > 0 ?
+                    respObtenerProducto.ListaProducto.FirstOrDefault() : null;
                 return respuesta.Producto != null ?
                   new RespuestaProducto { Respuesta = new Respuesta(string.Empty, Respuesta.CodExitoso), Producto = respuesta.Producto } :
                   new RespuestaProducto { Respuesta = new Respuesta(Respuestas.GI03, Respuesta.CodExitoso), Producto = new Producto() };

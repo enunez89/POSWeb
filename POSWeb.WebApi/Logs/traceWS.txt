@@ -108,3 +108,256 @@ URL: - http://localhost:55842/Productos/Guardar
 Codigo Error: - OMN-20190711-183503
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:48:17 AM
+Message: System.InvalidCastException: Specified cast is not valid.
+   at POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\HelperValues.cs:line 67
+   at POSWeb.Entidades.Proveedor..ctor(IDataReader dataReader, String alias) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\Proveedor.cs:line 89
+   at POSWeb.AccesoDatos.ProveedorAccesoDatos.ObtenerProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.AccesoDatos\ProveedorAccesoDatos.cs:line 116
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.ObtenerListaProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 68
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083769105671965
+ProcessId: 21700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:16164
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - ObtenerListaProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Listar
+Codigo Error: - OMN-20190723-114817
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:49:05 AM
+Message: System.InvalidCastException: Specified cast is not valid.
+   at POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\HelperValues.cs:line 67
+   at POSWeb.Entidades.Proveedor..ctor(IDataReader dataReader, String alias) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\Proveedor.cs:line 89
+   at POSWeb.AccesoDatos.ProveedorAccesoDatos.ObtenerProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.AccesoDatos\ProveedorAccesoDatos.cs:line 116
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.ObtenerListaProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 68
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083769105671965
+ProcessId: 21700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:16164
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - ObtenerListaProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Listar
+Codigo Error: - OMN-20190723-114905
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:50:23 AM
+Message: System.InvalidCastException: Specified cast is not valid.
+   at POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\HelperValues.cs:line 67
+   at POSWeb.Entidades.Proveedor..ctor(IDataReader dataReader, String alias) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.Entidades\Proveedor.cs:line 89
+   at POSWeb.AccesoDatos.ProveedorAccesoDatos.ObtenerProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.AccesoDatos\ProveedorAccesoDatos.cs:line 116
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.ObtenerListaProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 68
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083769105671965
+ProcessId: 21700
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:16164
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - ObtenerListaProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Listar
+Codigo Error: - OMN-20190723-115023
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:56:20 AM
+Message: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'paEliminarProveedor' expects parameter '@pId', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at POSWeb.AccesoDatos.ProveedorAccesoDatos.EliminarProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.AccesoDatos\ProveedorAccesoDatos.cs:line 196
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.EliminarProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 176
+ClientConnectionId:d7213190-90d7-4afc-a715-cf42ffb3da82
+Error Number:201,State:4,Class:16
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083779268018822
+ProcessId: 3080
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:13728
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>4</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - EliminarProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Eliminar?Id=4
+Codigo Error: - OMN-20190723-115620
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:56:53 AM
+Message: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'paEliminarProveedor' expects parameter '@Usr_Modificacion', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   at POSWeb.AccesoDatos.ProveedorAccesoDatos.EliminarProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.AccesoDatos\ProveedorAccesoDatos.cs:line 196
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.EliminarProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 176
+ClientConnectionId:d7213190-90d7-4afc-a715-cf42ffb3da82
+Error Number:201,State:4,Class:16
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083779268018822
+ProcessId: 3080
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:18176
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>4</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - EliminarProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Eliminar?Id=4
+Codigo Error: - OMN-20190723-115653
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 11:57:29 AM
+Message: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.ObtenerProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 94
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083779268018822
+ProcessId: 3080
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:19180
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>4</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - ObtenerProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Obtener
+Codigo Error: - OMN-20190723-115729
+
+----------------------------------------
+----------------------------------------
+Timestamp: 23-Jul-19 12:01:24 PM
+Message: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at POSWeb.LogicaNegocios.ProveedorLogicaNegocio.ObtenerProveedor(Proveedor pProveedor) in C:\Users\enunezs89\Documents\SistemasEddyGianca\POSWeb\POSWeb.LogicaNegocios\ProveedorLogicaNegocio.cs:line 94
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: DESKTOP-VMD53BN
+App Domain: /LM/W3SVC/2/ROOT-1-132083784294535933
+ProcessId: 21944
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:1980
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Proveedor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>4</Id>
+</Proveedor>
+Clase: - POSWeb.LogicaNegocios.ProveedorLogicaNegocio
+Metodo: - ObtenerProveedor
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Proveedor/Obtener
+Codigo Error: - OMN-20190723-120124
+
+----------------------------------------

@@ -11,7 +11,7 @@ namespace POSWeb.Entidades
 {
     /// <summary>
     /// Requerimiento:       POSWeb
-    /// Empresa:             Sistemas Eddy & Gianca
+    /// Empresa:             Salazar & Asociados S.A.
     /// Autor:               Eddy
     /// Propósito:           Entidad Producto
     /// Ultima modificacion: 11-07-2019
