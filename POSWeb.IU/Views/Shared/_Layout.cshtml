@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>POS Web | @ViewBag.Title</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Primary vendor style -->
+    @Styles.Render("~/bundles/font-awesome/css")
+    @Styles.Render("~/bundles/animate/css")
+    @Styles.Render("~/bundles/bootstrap/css")
+    @Styles.Render("~/bundles/peicon7stroke/css")
+
+    <!-- Add local styles, mostly for plugins css file -->
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+    <!-- Primary HOMER style -->
+    @Styles.Render("~/bundles/homer/css")
+</head>
+<body class="@Html.PageClass() fixed-navbar fixed-sidebar fixed-footer fixed-small-header">
+
+    <!-- Simple splash screen-->
+    <div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>POS Web</h1><p>El sistema puede tardar adaptandose para una mejor experiencia </p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
+    <!--[if lt IE 7]>
+    <p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Header -->
+    <div id="header">
+        @Html.Partial("_Header")
+    </div>
+
+    <!-- Navigation -->
+    <aside id="menu">
+        @*@{ Html.RenderPartialIf("_Navigation", Request.IsAuthenticated); }*@
+        @Html.Partial("_Navigation")
+    </aside>
+
+    <!-- Main view  -->
+    <div id="wrapper">
+        <div id="procesando">
+            @*<img style="display: block; margin: auto auto auto auto;" src="@Url.Content(" ~/Images/cargando.gif")"/>*@
+        </div>
+        @RenderBody()
+        <!-- Right Sidebar -->
+        @Html.Partial("_Right_Sidebar")
+        <!-- Footer-->
+        @Html.Partial("_Footer")
+
+        @*@if (Request.IsAuthenticated)
+            {
+            <!-- Right Sidebar -->
+                @Html.Partial("_Right_Sidebar")
+            <!-- Footer-->
+                @Html.Partial("_Footer")
+            }*@
+
+    </div>
+
+    <!-- Section for main scripts render -->
+    @*@Scripts.Render("~/bundles/jquery/js")*@
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui/js");
+    @Scripts.Render("~/bundles/bootstrap/js")
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+    @Scripts.Render("~/bundles/homer/js")
+    @Scripts.Render("~/bundles/utilitarios")
+    @Scripts.Render("~/bundles/tinymce/js")
+
+
+    <!-- Handler for local scripts -->
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<script src="~/Scripts/sweetalert2/sweetalert2.js"></script>
+<link rel="stylesheet" type="text/css" href="~/Content/css/sweetalert2.css">
+
+
+
+@{
+    var Msj = "null"; var TipoMensaje = "null"; var Titulo = "null";
+    if (ViewBag.TipoMensaje != null | ViewBag.Titulo != null | ViewBag.Msj != null)
+    {
+        Msj = ViewBag.Msj;
+        TipoMensaje = ViewBag.TipoMensaje.ToString();
+        Titulo = ViewBag.Titulo;
+    }
+    //ControllerName
+    var ControllerName = "null"; var MsjEliminar = "null";
+    if (ViewBag.ControllerName != null & ViewBag.MsjEliminar != null)
+    {
+        ControllerName = ViewBag.ControllerName;
+        MsjEliminar = ViewBag.MsjEliminar;
+    }
+
+}
+<script>
+    var Msj = '@Html.Raw(HttpUtility.JavaScriptStringEncode(@Msj.ToString()))';
+    var TipoMensaje = '@Html.Raw(HttpUtility.JavaScriptStringEncode(@TipoMensaje.ToString()))';
+    var Titulo = '@Html.Raw(HttpUtility.JavaScriptStringEncode(@Titulo.ToString()))';
+
+    var validaMsj = '@Html.Raw(HttpUtility.JavaScriptStringEncode(@MsjEliminar))';
+    var msjEliminarDato = '@Html.Raw(HttpUtility.JavaScriptStringEncode(@MsjEliminar.ToString()))';
+
+     //var mensajeRecursos = @Html.Raw(ViewBag.mensajeRecursos);
+</script>
+<script src="~/Scripts/UtilsSiteFunctions.js"></script>
+@*<script src="~/Scripts/Utilidades/Utilitarios.js"></script>*@

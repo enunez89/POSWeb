@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.LogicaNegocios", "PO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.WebApi", "POSWeb.WebApi\POSWeb.WebApi.csproj", "{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSWeb.IU", "POSWeb.IU\POSWeb.IU.csproj", "{F6BE1D35-54FE-4909-A810-A29893D11D29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4FD779C-A3CE-4E73-9BC5-FCDB2B11477E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BE1D35-54FE-4909-A810-A29893D11D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BE1D35-54FE-4909-A810-A29893D11D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BE1D35-54FE-4909-A810-A29893D11D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BE1D35-54FE-4909-A810-A29893D11D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
