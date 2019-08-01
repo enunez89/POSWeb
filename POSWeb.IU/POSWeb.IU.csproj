@@ -51,6 +51,9 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -136,6 +139,7 @@
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicio\CnnWebApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -175,6 +179,7 @@
     <Content Include="Scripts\EventosFormulario\EventosBitacora.js" />
     <Content Include="Scripts\EventosFormulario\EventosCatalogo.js" />
     <Content Include="Scripts\EventosFormulario\EventosCuentaEmail.js" />
+    <Content Include="Scripts\EventosFormulario\EventosFacturacion.js" />
     <Content Include="Scripts\EventosFormulario\EventosRol.js" />
     <Content Include="Scripts\EventosFormulario\EventosUsuario.js" />
     <Content Include="Scripts\jqGrid\grid.locale-en.js" />
@@ -5398,6 +5403,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\POSWeb.ControlExcepciones\POSWeb.ControlExcepciones.csproj">
+      <Project>{aed56a96-43a7-44c2-ab1d-b318cf8164aa}</Project>
+      <Name>POSWeb.ControlExcepciones</Name>
+    </ProjectReference>
     <ProjectReference Include="..\POSWeb.Entidades\POSWeb.Entidades.csproj">
       <Project>{02d05785-a128-4acc-b02d-213b9885b5f4}</Project>
       <Name>POSWeb.Entidades</Name>

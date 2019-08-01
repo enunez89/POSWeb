@@ -286,6 +286,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Venta agregado(a) correctamente..
+        /// </summary>
+        public static string bmCreateVenta {
+            get {
+                return ResourceManager.GetString("bmCreateVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Alerta eliminada correctamente..
         /// </summary>
         public static string bmDeleteAlertaEntidad {
@@ -471,6 +480,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         public static string bmDeleteVale {
             get {
                 return ResourceManager.GetString("bmDeleteVale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Venta eliminado(a) correctamente..
+        /// </summary>
+        public static string bmDeleteVenta {
+            get {
+                return ResourceManager.GetString("bmDeleteVenta", resourceCulture);
             }
         }
         
@@ -669,6 +687,15 @@ namespace POSWeb.Entidades.ResourceFiles {
         public static string bmEditVale {
             get {
                 return ResourceManager.GetString("bmEditVale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Venta modificado(a) correctamente..
+        /// </summary>
+        public static string bmEditVenta {
+            get {
+                return ResourceManager.GetString("bmEditVenta", resourceCulture);
             }
         }
         

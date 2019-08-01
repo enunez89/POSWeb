@@ -353,5 +353,14 @@
   </data>
   <data name="bmDeleteProveedor" xml:space="preserve">
     <value>Proveedor eliminado(a) correctamente.</value>
-  </data>  
+  </data>
+  <data name="bmCreateVenta" xml:space="preserve">
+    <value>Venta agregado(a) correctamente.</value>
+  </data>
+  <data name="bmEditVenta" xml:space="preserve">
+    <value>Venta modificado(a) correctamente.</value>
+  </data>
+  <data name="bmDeleteVenta" xml:space="preserve">
+    <value>Venta eliminado(a) correctamente.</value>
+  </data>
 </root>

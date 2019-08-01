@@ -62,7 +62,7 @@ namespace POSWeb.Entidades
         public int IdCategoria { get; set; }
 
         [DataMember]
-        [Display(Name = "Nombre")]
+        [Display(Name = "Producto")]
         [StringLength(250, ErrorMessage = "Nombre no puede contener más de 250 caracteres.")]
         [Required(ErrorMessage = "El dato Nombre es requerido")]
         public string Nombre { get; set; }
@@ -103,7 +103,7 @@ namespace POSWeb.Entidades
         public decimal Descuento { get; set; }
 
         [DataMember]
-        [Display(Name = "CodigoBarra")]
+        [Display(Name = "Código")]
         [StringLength(250, ErrorMessage = "CodigoBarra no puede contener más de 250 caracteres.")]
         [Required(ErrorMessage = "El dato CodigoBarra es requerido")]
         public string CodigoBarra { get; set; }
@@ -141,12 +141,12 @@ namespace POSWeb.Entidades
             //idProveedor
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.idProveedorProperty))
             {
-                this.IdProveedor = HelperValues.GetValue<int>(dataReader, alias + Producto.idProveedorProperty);
+                this.IdProveedor = HelperValues.GetValue<Int16>(dataReader, alias + Producto.idProveedorProperty);
             }
             //idCategoria
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.idCategoriaProperty))
             {
-                this.IdCategoria = HelperValues.GetValue<int>(dataReader, alias + Producto.idCategoriaProperty);
+                this.IdCategoria = HelperValues.GetValue<byte>(dataReader, alias + Producto.idCategoriaProperty);
             }
             //nombre
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.nombreProperty))
@@ -176,12 +176,12 @@ namespace POSWeb.Entidades
             //stock
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.stockProperty))
             {
-                this.Stock = HelperValues.GetValue<int>(dataReader, alias + Producto.stockProperty);
+                this.Stock = HelperValues.GetValue<Int16>(dataReader, alias + Producto.stockProperty);
             }
             //existencia
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.existenciaProperty))
             {
-                this.Existencia = HelperValues.GetValue<int>(dataReader, alias + Producto.existenciaProperty);
+                this.Existencia = HelperValues.GetValue<Int16>(dataReader, alias + Producto.existenciaProperty);
             }
             //descuento
             if (HelperValues.DataReaderHasColumn(dataReader, alias + Producto.descuentoProperty))

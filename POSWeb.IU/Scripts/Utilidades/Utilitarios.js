@@ -20,6 +20,16 @@ var accionResetearGen = "R";
 var tipoMsjAlerta = "warning";
 var chklist = "#chklist";
 
+var tituloMsjAlerta = "Alerta";
+var tituloMsjError = "Alerta";
+var tituloMsjExito = "Éxito";
+var tipoMsjError = "error";
+var tipoMsjExito = "success";
+
+var txtBotonAceptar = "Aceptar";
+
+var codigoExito = "00";
+
 
 
 $(document).ready(function () {
@@ -720,7 +730,147 @@ var Utilidades =
                 changeYear: true,
             });
         //$('.datepicker').mask("##/##/####");
-    }
+    },
+
+    /**
+     * Ejecuta un método ajax.
+     * @param {any} url Nombre del método a ejecutar.
+     * @param {any} parametros Parametros del método a ejecutar.
+     * @param {any} indTransforma Si se desea convertir a Json.
+     * @param {any} FuncionExito Función callback en el escenario éxitoso.
+     * @param {any} FuncionError Función callback en el escenario fallido.
+     */
+    EjecutarAjax: function (url, parametros, indTransforma, FuncionExito, FuncionError) {
+        $.ajax({
+            type: 'POST',
+            url: url,
+            traditional: true,
+            data: Utilidades.TransformaJSON(parametros, indTransforma),
+            //data: JSON.stringify(parametros),
+            contentType: 'application/json;',
+            dataType: 'json',
+            cache: false,
+            enctype: "multipart/form-data",
+            converters: { 'text json': true },
+            success: function (data) {
+                var oRespuesta = $.parseJSON(data);
+                if (oRespuesta.CodError === codigoExito) {
+                    FuncionExito(oRespuesta);
+                } else {
+                    if (FuncionError == undefined) {
+                        Utilidades.GenerarMensaje(oRespuesta.Mensaje);
+                    }
+                    else {
+                        FuncionError(oRespuesta);
+                    }
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                Utilidades.GenerarMensaje(mensajeError, tipoMsjError);
+            }
+        })
+            .fail(function (xhr) {
+                Utilidades.GenerarMensaje(mensajeError, tipoMsjError);
+            });
+    },
+
+    /**
+     * Verifica si se transforma el objeto a json para deserializarle en controller, o se debe de enviar un objeto.
+     * @param {any} data Datos a transformar.
+     * @param {any} indicadorTransformacion Indicador para saber si se debe convertir.
+     * @returns {any} Datos transformados.
+     */
+    TransformaJSON: function (data, indicadorTransformacion) {
+        if (indicadorTransformacion == true) {
+            var jsonString = JSON.stringify(data);
+            return jsonString;
+        } else {
+            return data;
+        }
+    },
+
+    /**
+     * Genera mensaje en pantalla.
+     * @param {any} mensaje Texto mostrar.
+     * @param {any} tipoMsj Tipo de mensaje a generar.
+     * @param {any} ruta Ruta de la pantalla.
+     */
+    GenerarMensaje: function (mensaje, tipoMsj, ruta) {
+
+
+
+        /*Si no tiene el tipo de msj es un msj de alerta*/
+        if (tipoMsj == null || tipoMsj == "" || tipoMsj == undefined) {
+            tipoMsj = tipoMsjAlerta;
+        }
+
+        Msj = mensaje;
+        TipoMensaje = tipoMsj;
+        switch (TipoMensaje) {
+            case tipoMsjExito:
+                Titulo = tituloMsjExito;
+                break;
+            case tipoMsjError:
+                Titulo = tituloMsjError;
+                break;
+            case tipoMsjAlerta:
+                Titulo = tituloMsjAlerta;
+                break;
+            default:
+                Titulo = null;
+        }
+
+        if (ruta == undefined || ruta == "") {
+            Utilidades.MostrarMensaje();
+        }
+        else {
+            Utilidades.MostrarMensajeRedirecciona(Titulo, Msj, tipoMsj, ruta);
+        }
+
+    },
+
+    /**Muestra el mensaje */
+    MostrarMensaje: function () {
+        /*Variable generadas en el layout y cargadas por view bag*/
+        if (Msj != "null" | TipoMensaje != "null" | Titulo != "null") {
+            if (MsjRutaDestino == "null" || MsjRutaDestino == undefined) {
+
+                swal(Titulo, Msj, TipoMensaje);
+            }
+            else {
+                Utilidades.MostrarMensajeRedirecciona(Titulo, Msj, TipoMensaje, MsjRutaDestino);
+            }
+            Msj = "null";
+            TipoMensaje = "null";
+            Titulo = "null";
+        }
+    },
+
+    /**
+     * Muestra el mensaje y lo redirecciona.
+     * @param {any} tituloRedirect Titulo del mensaje.
+     * @param {any} msjRedirect Texto del mensaje.
+     * @param {any} tipoRedirec Tipo de mensaje.
+     * @param {any} rutaDestinoRedirect Ruta a redireccionar.
+     * @returns {any} Bool si se redirecciona o no.
+     */
+    MostrarMensajeRedirecciona: function (tituloRedirect, msjRedirect, tipoRedirec, rutaDestinoRedirect) {
+        swal({
+            title: tituloRedirect,
+            text: msjRedirect,
+            type: tipoRedirec,
+            showCancelButton: false,
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: txtBotonAceptar,
+            allowOutsideClick: false,
+        }).then(function (isConfirm) {
+            if (isConfirm === true) {
+                window.location.href = rutaDestinoRedirect;
+            }
+
+        });
+        return false;
+    },
 
 };
 

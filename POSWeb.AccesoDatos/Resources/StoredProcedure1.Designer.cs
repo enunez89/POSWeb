@@ -160,6 +160,15 @@ namespace POSWeb.AccesoDatos.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to paEliminarVenta.
+        /// </summary>
+        public static string EliminarVenta {
+            get {
+                return ResourceManager.GetString("EliminarVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to paInsertarAlerta.
         /// </summary>
         public static string InsertarAlerta {
@@ -268,6 +277,15 @@ namespace POSWeb.AccesoDatos.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to paInsertarVenta.
+        /// </summary>
+        public static string InsertarVenta {
+            get {
+                return ResourceManager.GetString("InsertarVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to paModificarAlerta.
         /// </summary>
         public static string ModificarAlerta {
@@ -363,6 +381,15 @@ namespace POSWeb.AccesoDatos.Resources {
         public static string ModificarUsuario {
             get {
                 return ResourceManager.GetString("ModificarUsuario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paModificarVenta.
+        /// </summary>
+        public static string ModificarVenta {
+            get {
+                return ResourceManager.GetString("ModificarVenta", resourceCulture);
             }
         }
         
@@ -687,6 +714,24 @@ namespace POSWeb.AccesoDatos.Resources {
         public static string ObtenerUsuarioPaginado {
             get {
                 return ResourceManager.GetString("ObtenerUsuarioPaginado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paObtenerVenta.
+        /// </summary>
+        public static string ObtenerVenta {
+            get {
+                return ResourceManager.GetString("ObtenerVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paObtenerVentaPag.
+        /// </summary>
+        public static string ObtenerVentaPaginado {
+            get {
+                return ResourceManager.GetString("ObtenerVentaPaginado", resourceCulture);
             }
         }
         

@@ -72,6 +72,7 @@
     <Compile Include="SesionAccesoDatos.cs" />
     <Compile Include="TipoIdentificacionAccesoDatos.cs" />
     <Compile Include="UsuarioAccesoDatos.cs" />
+    <Compile Include="VentaAccesoDatos.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\StoredProcedure.resx">

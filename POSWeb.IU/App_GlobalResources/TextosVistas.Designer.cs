@@ -70,11 +70,29 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Salazar &amp; Asociados S.A..
+        /// </summary>
+        internal static string NombreCompania {
+            get {
+                return ResourceManager.GetString("NombreCompania", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to POS Web.
         /// </summary>
         internal static string POSWeb {
             get {
                 return ResourceManager.GetString("POSWeb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to En este módulo se podrá realizar las ventas diarias..
+        /// </summary>
+        internal static string txtFacturacionDesc {
+            get {
+                return ResourceManager.GetString("txtFacturacionDesc", resourceCulture);
             }
         }
     }

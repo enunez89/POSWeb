@@ -30,6 +30,22 @@ namespace POSWeb.WebApi.Controllers
             return lnProducto.InsertarProducto(producto);
         }
 
+        /// <summary>
+        /// Obtiene la información de un producto por codigo de barra
+        /// </summary>
+        /// <param name="codigoBarra"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("ObtenerPorCodigo")]
+        public RespuestaProducto ObtenerPorCodigo(string codigoBarra)
+        {
+            var producto = new Producto
+            {
+                CodigoBarra = codigoBarra
+            };
+            return lnProducto.ObtenerProducto(producto);
+        }
+
 
     }
 }

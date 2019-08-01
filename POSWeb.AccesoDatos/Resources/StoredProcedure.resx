@@ -333,4 +333,19 @@
   <data name="EliminarProveedor" xml:space="preserve">
     <value>paEliminarProveedor</value>
   </data>
+  <data name="ObtenerVenta" xml:space="preserve">
+    <value>paObtenerVenta</value>
+  </data>
+  <data name="ObtenerVentaPaginado" xml:space="preserve">
+    <value>paObtenerVentaPag</value>
+  </data>
+  <data name="InsertarVenta" xml:space="preserve">
+    <value>paInsertarVenta</value>
+  </data>
+  <data name="ModificarVenta" xml:space="preserve">
+    <value>paModificarVenta</value>
+  </data>
+  <data name="EliminarVenta" xml:space="preserve">
+    <value>paEliminarVenta</value>
+  </data>
 </root>

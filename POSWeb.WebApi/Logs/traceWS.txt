@@ -361,3 +361,135 @@ URL: - http://localhost:55842/Proveedor/Obtener
 Codigo Error: - OMN-20190723-120124
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 31/07/2019 2:33:19
+Message: System.InvalidCastException: La conversión especificada no es válida.
+   en POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) en E:\repo\POSWeb\POSWeb.Entidades\HelperValues.cs:línea 67
+   en POSWeb.Entidades.Producto..ctor(IDataReader dataReader, String alias) en E:\repo\POSWeb\POSWeb.Entidades\Producto.cs:línea 144
+   en POSWeb.AccesoDatos.ProductoAccesoDatos.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.AccesoDatos\ProductoAccesoDatos.cs:línea 128
+   en POSWeb.LogicaNegocios.ProductoLogicaNegocio.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.LogicaNegocios\ProductoLogicaNegocio.cs:línea 92
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: EJ8AL8Q
+App Domain: /LM/W3SVC/2/ROOT-1-132090787450782243
+ProcessId: 18332
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:9056
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Producto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+  <IdProveedor>0</IdProveedor>
+  <IdCategoria>0</IdCategoria>
+  <PrecioCosto>0</PrecioCosto>
+  <PrecioVenta>0</PrecioVenta>
+  <Utilidad>0</Utilidad>
+  <Impuesto>0</Impuesto>
+  <Stock>0</Stock>
+  <Existencia>0</Existencia>
+  <Descuento>0</Descuento>
+  <CodigoBarra>I3</CodigoBarra>
+  <Activo>false</Activo>
+</Producto>
+Clase: - POSWeb.LogicaNegocios.ProductoLogicaNegocio
+Metodo: - ObtenerProducto
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Productos/ObtenerPorCodigo?codigoBarra=I3
+Codigo Error: - OMN-20190731-143319
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/07/2019 2:38:16
+Message: System.InvalidCastException: La conversión especificada no es válida.
+   en POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) en E:\repo\POSWeb\POSWeb.Entidades\HelperValues.cs:línea 67
+   en POSWeb.Entidades.Producto..ctor(IDataReader dataReader, String alias) en E:\repo\POSWeb\POSWeb.Entidades\Producto.cs:línea 149
+   en POSWeb.AccesoDatos.ProductoAccesoDatos.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.AccesoDatos\ProductoAccesoDatos.cs:línea 128
+   en POSWeb.LogicaNegocios.ProductoLogicaNegocio.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.LogicaNegocios\ProductoLogicaNegocio.cs:línea 92
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: EJ8AL8Q
+App Domain: /LM/W3SVC/2/ROOT-1-132090790766319709
+ProcessId: 16984
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:16184
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Producto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+  <IdProveedor>0</IdProveedor>
+  <IdCategoria>0</IdCategoria>
+  <PrecioCosto>0</PrecioCosto>
+  <PrecioVenta>0</PrecioVenta>
+  <Utilidad>0</Utilidad>
+  <Impuesto>0</Impuesto>
+  <Stock>0</Stock>
+  <Existencia>0</Existencia>
+  <Descuento>0</Descuento>
+  <CodigoBarra>I3</CodigoBarra>
+  <Activo>false</Activo>
+</Producto>
+Clase: - POSWeb.LogicaNegocios.ProductoLogicaNegocio
+Metodo: - ObtenerProducto
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Productos/ObtenerPorCodigo?codigoBarra=I3
+Codigo Error: - OMN-20190731-143816
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/07/2019 2:38:53
+Message: System.InvalidCastException: La conversión especificada no es válida.
+   en POSWeb.Entidades.HelperValues.GetValue[T](IDataReader reader, String columnName) en E:\repo\POSWeb\POSWeb.Entidades\HelperValues.cs:línea 67
+   en POSWeb.Entidades.Producto..ctor(IDataReader dataReader, String alias) en E:\repo\POSWeb\POSWeb.Entidades\Producto.cs:línea 149
+   en POSWeb.AccesoDatos.ProductoAccesoDatos.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.AccesoDatos\ProductoAccesoDatos.cs:línea 128
+   en POSWeb.LogicaNegocios.ProductoLogicaNegocio.ObtenerProducto(Producto pProducto) en E:\repo\POSWeb\POSWeb.LogicaNegocios\ProductoLogicaNegocio.cs:línea 92
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: EJ8AL8Q
+App Domain: /LM/W3SVC/2/ROOT-1-132090790766319709
+ProcessId: 16984
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:16184
+Extended Properties: Trama: - <?xml version="1.0" encoding="utf-16"?>
+<Producto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FecCreacion xsi:nil="true" />
+  <FecModificacion xsi:nil="true" />
+  <IdEntidad>0</IdEntidad>
+  <Id>0</Id>
+  <IdProveedor>0</IdProveedor>
+  <IdCategoria>0</IdCategoria>
+  <PrecioCosto>0</PrecioCosto>
+  <PrecioVenta>0</PrecioVenta>
+  <Utilidad>0</Utilidad>
+  <Impuesto>0</Impuesto>
+  <Stock>0</Stock>
+  <Existencia>0</Existencia>
+  <Descuento>0</Descuento>
+  <CodigoBarra>I3</CodigoBarra>
+  <Activo>false</Activo>
+</Producto>
+Clase: - POSWeb.LogicaNegocios.ProductoLogicaNegocio
+Metodo: - ObtenerProducto
+Usuario: - 
+IP: - ::1
+URL: - http://localhost:55842/Productos/ObtenerPorCodigo?codigoBarra=I3
+Codigo Error: - OMN-20190731-143853
+
+----------------------------------------

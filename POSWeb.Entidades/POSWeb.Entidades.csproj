@@ -116,6 +116,8 @@
     <Compile Include="TipoIdentificacion.cs" />
     <Compile Include="Token.cs" />
     <Compile Include="Usuario.cs" />
+    <Compile Include="Venta.cs" />
+    <Compile Include="VentaDetalle.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ResourceFiles\AccionesRX.resx">

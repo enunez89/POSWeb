@@ -120,7 +120,13 @@
   <data name="Facturacion" xml:space="preserve">
     <value>Facturación</value>
   </data>
+  <data name="NombreCompania" xml:space="preserve">
+    <value>Salazar &amp; Asociados S.A.</value>
+  </data>
   <data name="POSWeb" xml:space="preserve">
     <value>POS Web</value>
+  </data>
+  <data name="txtFacturacionDesc" xml:space="preserve">
+    <value>En este módulo se podrá realizar las ventas diarias.</value>
   </data>
 </root>
