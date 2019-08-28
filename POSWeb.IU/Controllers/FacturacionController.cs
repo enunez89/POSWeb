@@ -47,6 +47,7 @@ namespace POSWeb.IU.Controllers
                     CodError = Respuesta.CodNoValido
                 });
             }
+            //prueba
         }
     }
 }
